@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/HelpRight_feed/static/css/main.666a0767.css",
+    "main.js": "/HelpRight_feed/static/js/main.87f4b232.js",
+    "static/js/787.fd77d590.chunk.js": "/HelpRight_feed/static/js/787.fd77d590.chunk.js",
+    "index.html": "/HelpRight_feed/index.html",
+    "main.666a0767.css.map": "/HelpRight_feed/static/css/main.666a0767.css.map",
+    "main.87f4b232.js.map": "/HelpRight_feed/static/js/main.87f4b232.js.map",
+    "787.fd77d590.chunk.js.map": "/HelpRight_feed/static/js/787.fd77d590.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.666a0767.css",
+    "static/js/main.87f4b232.js"
+  ]
+}
