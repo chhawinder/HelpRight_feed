@@ -2,32 +2,19 @@ import React, { useState } from "react";
 import "./ButtonToTop.css";
 
 const ButtonToTop = () => {
-  const [isVisible, setIsVisible] = useState(false);
-
-  const handleScroll = () => {
-    const currentScrollPos = window.pageYOffset;
-    if (currentScrollPos > 100) {
-      setIsVisible(true);
-    } else {
-      setIsVisible(false);
-    }
-  };
+  const [isVisible, setIsVisible] = useState(true);
 
   const handleClick = () => {
-    window.scrollTo({
-      top: 0,
-      behavior: "smooth",
-    });
+    window.location.href='https://chhawinder.github.io/HelpRight_newpost/';
   };
 
-  window.addEventListener("scroll", handleScroll);
 
   return (
     <button
       className={`button-to-top ${isVisible ? "visible" : ""}`}
       onClick={handleClick}
     >
-      <i class="fa-regular fa-arrow-up"></i> 
+    <i class="fa-solid fa-plus"></i>
     </button>
   );
 };

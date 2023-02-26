@@ -5,10 +5,11 @@
     height: 100%;
     flex-direction: column;
     width: 200px;
-    padding: 20px;
+    padding: 15px;
     background-color: #f7f7f7;
     border: 1px solid #ccc;
     border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
   }
   
   .tag-list {
@@ -17,7 +18,7 @@
     margin: 0;
   }
   
-  .tag {
+  /* .tag {
     display: inline-block;
     padding: 0.5rem;
     margin: 0.5rem 0;
@@ -27,9 +28,9 @@
     background-color: #fff;
     border: 1px solid #ccc;
     transition: all 0.2s;
-  }
+  } */
   
-  .tag:hover {
+  /* .tag:hover {
     background-color: #e0e0e0;
   }
   
@@ -37,4 +38,41 @@
     color: #fff;
     background-color: #0077b5;
     border-color: #0077b5;
+  }  */
+
+  .tag {
+    cursor: pointer;
+    padding: 10px 15px;
+    margin: 10px 0;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    color: #333;
+    padding-left: 20px; /* Add left padding */
+  position: relative; /* Add position relative */
   }
+  
+  .tag.active {
+    background-color: #333;
+    color: #fff;
+    padding-left: 20px; /* Add left padding */
+  }
+
+  .post {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .post-time {
+    font-size: 14px;
+    color: gray;
+    margin-bottom: 10px;
+  }
+  
+  .post-img {
+    width: 100%;
+    max-width: 500px;
+    margin-bottom: 10px;
+  }
+  

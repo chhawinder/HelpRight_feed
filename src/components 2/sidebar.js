@@ -34,6 +34,32 @@ function Sidebar(props) {
         >
           Medical Help
         </li>
+        <li
+          className={`tag ${selectedTags.includes('Diaster') ? 'active' : ''}`}
+          onClick={() => handleTagClick('Diaster')}
+        >
+          Disaster
+        </li>
+        
+        <li
+          className={`tag ${selectedTags.includes('old-age') ? 'active' : ''}`}
+          onClick={() => handleTagClick('old-age')}
+        >
+         Old-age
+        </li>
+     
+        <li
+          className={`tag ${selectedTags.includes('Environment') ? 'active' : ''}`}
+          onClick={() => handleTagClick('Environment')}
+        >
+        Environment
+        </li>
+        {/* <li
+          className={`tag ${selectedTags.includes('People with disability') ? 'active' : ''}`}
+          onClick={() => handleTagClick('People with disability')}
+        >
+       People with disability
+        </li> */}
       </ul>
     </div>
   );
