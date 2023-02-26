@@ -1,5 +1,7 @@
 import React from 'react';
 import StripeCheckout from 'react-stripe-checkout';
+import img from './favicon.ico';
+
 
 const StripeCheckoutButton = ({ price }) => {
   const priceForStripe = price * 100;
@@ -17,7 +19,7 @@ const StripeCheckoutButton = ({ price }) => {
       name='HelpRight'
       billingAddress
       shippingAddress
-      image='https://svgshare.com/i/CUz.svg'
+      image={img}
       description={`Your total is Rs{price}`}
       amount={priceForStripe}
       panelLabel='Donate'

@@ -211,7 +211,7 @@ function App() {
           </div>
           <div style={{ fontSize: "18px", padding: "10px" }} className="container-1">
             <div className="item-title">{item.title}</div>
-            <div className="item-buttons">
+            <div className="item-buttons submi">
               {handleDonate(item.id)}
               <button onClick={() => handleShare(item.id)}>Share</button>
               <button onClick={() => handleHelp(item.id)}>Help</button>

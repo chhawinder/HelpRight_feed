@@ -3,6 +3,8 @@
     overflow-y: scroll;
     overflow-x: hidden;
      padding: 20px;
+    position: absolute;
+    padding-left: 100%;
   }
   .container-1{
     height: 20vh;
@@ -61,6 +63,11 @@ ends here */
   ::-webkit-scrollbar {
     display:none;
     border-radius: 50px;;
+  }
+  .submi{
+    color: #fff;
+    background-color: #0077b6;
+
   }
   
   .item-buttons {
